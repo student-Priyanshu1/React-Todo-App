@@ -1,16 +1,111 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Todo List Application** built using **React and Vite**.
+This app allows users to add tasks, mark them as completed, and delete them.
+Tasks are stored in **LocalStorage**, so they remain saved even after refreshing the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new tasks
+* ✅ Mark tasks as completed
+* ❌ Delete tasks
+* 💾 Persistent storage using LocalStorage
+* 🎨 Clean and responsive user interface
+* ⚡ Fast development with Vite
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React**
+* **Vite**
+* **JavaScript (ES6)**
+* **Tailwind CSS**
+
+---
+
+## 📂 Project Structure
+
+```
+my-todo-app
+│
+├── public
+├── src
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/your-username/my-todo-app.git
+```
+
+Go to the project folder:
+
+```
+cd my-todo-app
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 Learning Outcomes
+
+This project helped practice:
+
+* React **useState**
+* React **useEffect**
+* Controlled form inputs
+* Array methods (`map`, `filter`)
+* LocalStorage for saving data
+* Conditional rendering
+* Event handling in React
+
+---
+
+## 📌 Future Improvements
+
+* ✏️ Edit existing tasks
+* 🔍 Filter tasks (All / Completed / Pending)
+* 🌙 Dark mode support
+* 📱 Improved mobile responsiveness
+* 🧩 Component-based architecture
+
+---
+
+## 👨‍💻 Author
+
+**Priyanshu Juyal**
+
+Frontend Developer (React Learner)
+
+---
+
