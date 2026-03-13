@@ -48,7 +48,7 @@ my-todo-app
 Clone the repository:
 
 ```
-git clone https://github.com/your-username/my-todo-app.git
+git clone https://github.com/student-Priyanshu1/React-Todo-App.git
 ```
 
 Go to the project folder:
@@ -68,14 +68,6 @@ Run the development server:
 ```
 npm run dev
 ```
-
-Open in browser:
-
-```
-http://localhost:5173
-```
-
----
 
 ## 🧠 Learning Outcomes
 
